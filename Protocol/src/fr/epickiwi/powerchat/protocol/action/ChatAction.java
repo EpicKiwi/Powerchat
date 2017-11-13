@@ -1,21 +1,21 @@
-package fr.epickiwi.powerchat.com.message;
+package fr.epickiwi.powerchat.protocol.action;
 
-import fr.epickiwi.powerchat.com.user.User;
+import fr.epickiwi.powerchat.protocol.user.User;
 
 import java.io.Serializable;
 import java.util.Date;
 import java.util.UUID;
 
-public abstract class Message implements Serializable{
+public abstract class ChatAction implements Serializable {
 
-    protected User author;
-    protected Date date;
-    protected UUID uuid;
+    private User author;
+    private Date date;
+    private final UUID id;
 
-    public Message(User author) {
+    public ChatAction(User author) {
         this.author = author;
         this.date = new Date();
-        this.uuid = UUID.randomUUID();
+        this.id = UUID.randomUUID();
     }
 
     public User getAuthor() {
@@ -34,11 +34,7 @@ public abstract class Message implements Serializable{
         this.date = date;
     }
 
-    public UUID getUuid() {
-        return uuid;
-    }
-
-    public void setUuid(UUID uuid) {
-        this.uuid = uuid;
+    public UUID getId() {
+        return id;
     }
 }

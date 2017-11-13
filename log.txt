@@ -319,3 +319,999 @@ fr.epickiwi.powerchat.server.chat.ClientPool.connectClient(ClientPool.java:21)
 fr.epickiwi.powerchat.server.chat.Server.run(Server.java:36)
 
 Sun Nov 12 20:27:52 CET 2017 | [INFO] Fermeture du serveur
+Mon Nov 13 14:11:54 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 14:11:54 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 14:11:54 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 14:12:02 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:12:02 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:12:02 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:12:02 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 14:12:20 CET 2017 | [ERROR] null ( java.io.EOFException )
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.server.Client.run(Client.java:34)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 14:15:38 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 14:15:38 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 14:15:38 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 14:15:41 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:15:41 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:15:41 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:15:41 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 14:15:43 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 14:21:32 CET 2017 | [FATAL] Connexion refusée (Connection refused) ( java.net.ConnectException: Connexion refusée (Connection refused) )
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+java.net.Socket.connect(Socket.java:589)
+java.net.Socket.connect(Socket.java:538)
+java.net.Socket.<init>(Socket.java:434)
+java.net.Socket.<init>(Socket.java:211)
+fr.epickiwi.powerchat.cliclient.Main.main(Main.java:20)
+
+Mon Nov 13 14:21:32 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:21:39 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 14:21:39 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 14:21:39 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 14:21:41 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:21:41 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:21:41 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:21:41 CET 2017 | [ERROR] writing aborted; java.io.NotSerializableException: fr.epickiwi.powerchat.protocol.action.ChangeUserAction ( java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: fr.epickiwi.powerchat.protocol.action.ChangeUserAction )
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1539)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.cliclient.Main.lambda$main$0(Main.java:29)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 14:21:41 CET 2017 | [ERROR] fr.epickiwi.powerchat.protocol.action.ChangeUserAction ( java.io.NotSerializableException: fr.epickiwi.powerchat.protocol.action.ChangeUserAction )
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+fr.epickiwi.powerchat.server.Client.run(Client.java:36)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 14:21:41 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 14:22:12 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 14:22:12 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 14:22:12 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 14:22:16 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:22:16 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:22:16 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:22:16 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 14:22:16 CET 2017 | [DEBUG] fr.epickiwi.powerchat.protocol.action.ChangeUserAction@16c02428
+Mon Nov 13 14:22:54 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 14:26:57 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 14:26:57 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 14:26:57 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 14:27:00 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:27:00 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:27:00 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:27:00 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 14:27:06 CET 2017 | [DEBUG] fr.epickiwi.powerchat.protocol.action.MessageAction@18671f02
+Mon Nov 13 14:27:14 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 14:28:22 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 14:28:22 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 14:28:22 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 14:28:25 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:28:24 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:28:25 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:28:25 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 14:28:25 CET 2017 | [INFO] Utilisateur temporaire Anonymous#1
+Mon Nov 13 14:28:33 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 14:28:35 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 14:28:35 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:28:35 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:28:35 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:28:35 CET 2017 | [INFO] Utilisateur anonyme Anonymous#2
+Mon Nov 13 14:28:44 CET 2017 | [INFO] Client Anonymous#2 déconnecté
+Mon Nov 13 14:28:46 CET 2017 | [INFO] Connexion du client Anonymous#3
+Mon Nov 13 14:28:46 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:28:46 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:28:46 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:28:46 CET 2017 | [INFO] Utilisateur Anonymous#3
+Mon Nov 13 14:29:16 CET 2017 | [INFO] Client Anonymous#3 déconnecté
+Mon Nov 13 14:29:18 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:29:18 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:29:18 CET 2017 | [INFO] Connexion du client Anonymous#4
+Mon Nov 13 14:29:18 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:29:18 CET 2017 | [INFO] Utilisateur Anonymous#4
+Mon Nov 13 14:29:32 CET 2017 | [INFO] Client Anonymous#4 déconnecté
+Mon Nov 13 14:29:34 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:29:34 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:29:34 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:29:34 CET 2017 | [INFO] Connexion du client Anonymous#5
+Mon Nov 13 14:29:34 CET 2017 | [INFO] Utilisateur Anonymous#5
+Mon Nov 13 14:45:19 CET 2017 | [INFO] Client Anonymous#5 déconnecté
+Mon Nov 13 14:45:23 CET 2017 | [INFO] Connexion du client Anonymous#6
+Mon Nov 13 14:45:23 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:45:23 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:45:23 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:45:24 CET 2017 | [FATAL] fr.epickiwi.powerchat.protocol.user.User; local class incompatible: stream classdesc serialVersionUID = 4015072889749525157, local class serialVersionUID = 3879144950192220881 ( java.io.InvalidClassException: fr.epickiwi.powerchat.protocol.user.User; local class incompatible: stream classdesc serialVersionUID = 4015072889749525157, local class serialVersionUID = 3879144950192220881 )
+java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:616)
+java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1843)
+java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1713)
+java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1843)
+java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1713)
+java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2000)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1535)
+java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2245)
+java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2169)
+java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2027)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1535)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.cliclient.Main.main(Main.java:30)
+
+Mon Nov 13 14:45:36 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 14:45:36 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 14:45:36 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 14:45:38 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 14:45:38 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 14:45:38 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 14:45:42 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:45:42 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:45:42 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:45:42 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 14:45:42 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 14:45:46 CET 2017 | [DEBUG] fr.epickiwi.powerchat.protocol.action.MessageAction@deac637
+Mon Nov 13 14:45:59 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 14:46:04 CET 2017 | [DEBUG] fr.epickiwi.powerchat.protocol.action.ChangeUserAction@34563340
+Mon Nov 13 14:51:52 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 14:51:55 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 14:51:55 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 14:51:55 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 14:51:58 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:51:58 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:51:58 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:51:58 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 14:51:59 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 14:52:03 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 14:52:06 CET 2017 | [INFO] Anonymous#1 change d'utilisateur pour EpicKiwi
+Mon Nov 13 14:52:48 CET 2017 | [INFO] Client EpicKiwi déconnecté
+Mon Nov 13 14:52:50 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 14:52:50 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 14:52:50 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 14:52:50 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 14:52:50 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 14:53:06 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 14:53:09 CET 2017 | [INFO] Nouvel utilisateur EpicKiwi
+Mon Nov 13 14:53:09 CET 2017 | [INFO] Anonymous#2 change d'utilisateur pour EpicKiwi
+Mon Nov 13 14:55:20 CET 2017 | [DEBUG] fr.epickiwi.powerchat.protocol.action.MessageAction@1af19d22
+Mon Nov 13 15:07:11 CET 2017 | [ERROR] null ( java.io.EOFException )
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.cliclient.Main.lambda$main$0(Main.java:49)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 15:07:12 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 15:07:12 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 15:07:12 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 15:07:17 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:07:17 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:07:17 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:07:17 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 15:07:17 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 15:07:24 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 15:07:24 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:07:24 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:07:24 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:07:24 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 15:07:32 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 15:07:35 CET 2017 | [INFO] Anonymous#1 change d'utilisateur pour Tanguy
+Mon Nov 13 15:07:35 CET 2017 | [INFO] Nouvel utilisateur Tanguy
+Mon Nov 13 15:07:40 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 15:07:43 CET 2017 | [INFO] Anonymous#2 change d'utilisateur pour jean guillaume
+Mon Nov 13 15:07:43 CET 2017 | [INFO] Nouvel utilisateur jean guillaume
+Mon Nov 13 15:07:48 CET 2017 | [DEBUG] fr.epickiwi.powerchat.protocol.action.MessageAction@1a0a7259
+Mon Nov 13 15:07:48 CET 2017 | [DEBUG] fr.epickiwi.powerchat.protocol.action.MessageAction@6577a6ae
+Mon Nov 13 15:08:49 CET 2017 | [INFO] Client Tanguy déconnecté
+Mon Nov 13 15:08:51 CET 2017 | [INFO] Client jean guillaume déconnecté
+Mon Nov 13 15:08:54 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 15:08:54 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 15:08:54 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 15:08:57 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:08:57 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:08:57 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:08:58 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 15:08:58 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 15:09:02 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 15:09:02 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:09:02 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:09:02 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:09:02 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 15:09:06 CET 2017 | [INFO] Anonymous#2: Hello
+Mon Nov 13 15:09:06 CET 2017 | [DEBUG] fr.epickiwi.powerchat.protocol.action.MessageAction@1a0a7259
+Mon Nov 13 15:09:06 CET 2017 | [DEBUG] fr.epickiwi.powerchat.protocol.action.MessageAction@10f21929
+Mon Nov 13 15:10:37 CET 2017 | [ERROR] null ( java.io.EOFException )
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.cliclient.Main.lambda$main$0(Main.java:49)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 15:10:37 CET 2017 | [ERROR] null ( java.io.EOFException )
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.cliclient.Main.lambda$main$0(Main.java:49)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 15:10:39 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 15:10:39 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 15:10:39 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 15:10:44 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:10:44 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:10:44 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:10:44 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 15:10:44 CET 2017 | [ERROR] Connection reset ( java.net.SocketException: Connection reset )
+java.net.SocketInputStream.read(SocketInputStream.java:210)
+java.net.SocketInputStream.read(SocketInputStream.java:141)
+java.net.SocketInputStream.read(SocketInputStream.java:224)
+java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2598)
+java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:2905)
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2915)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.server.Client.run(Client.java:40)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 15:10:48 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:10:48 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:10:48 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 15:10:48 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:10:48 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 15:10:51 CET 2017 | [INFO] Connexion du client Anonymous#3
+Mon Nov 13 15:10:51 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:10:51 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:10:51 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:10:51 CET 2017 | [INFO] Utilisateur Anonymous#3
+Mon Nov 13 15:10:53 CET 2017 | [INFO] Anonymous#3 : Hello
+Mon Nov 13 15:10:53 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:63)
+fr.epickiwi.powerchat.server.Client.run(Client.java:53)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 15:10:53 CET 2017 | [INFO] Anonymous#3 : Hello
+Mon Nov 13 15:10:53 CET 2017 | [INFO] Anonymous#3 : Hello
+Mon Nov 13 15:10:58 CET 2017 | [INFO] Anonymous#2 : Salut
+Mon Nov 13 15:10:58 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:63)
+fr.epickiwi.powerchat.server.Client.run(Client.java:53)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 15:10:58 CET 2017 | [INFO] Anonymous#2 : Salut
+Mon Nov 13 15:10:58 CET 2017 | [INFO] Anonymous#2 : Salut
+Mon Nov 13 15:33:44 CET 2017 | [INFO] Client Anonymous#2 déconnecté
+Mon Nov 13 15:33:45 CET 2017 | [INFO] Client Anonymous#3 déconnecté
+Mon Nov 13 15:33:55 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 15:33:55 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 15:33:55 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 15:33:59 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:33:59 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:33:59 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:33:59 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 15:33:59 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 15:34:01 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:34:01 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:34:01 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 15:34:01 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:34:01 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 15:34:04 CET 2017 | [INFO] Anonymous#1 : Hello
+Mon Nov 13 15:34:04 CET 2017 | [INFO] Anonymous#1 : Hello
+Mon Nov 13 15:34:04 CET 2017 | [INFO] Anonymous#1 : Hello
+Mon Nov 13 15:34:08 CET 2017 | [INFO] Anonymous#2 : Je suis là
+Mon Nov 13 15:34:08 CET 2017 | [INFO] Anonymous#2 : Je suis là
+Mon Nov 13 15:34:08 CET 2017 | [INFO] Anonymous#2 : Je suis là
+Mon Nov 13 15:34:11 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 15:34:15 CET 2017 | [INFO] Nouvel utilisateur EpicKiwi
+Mon Nov 13 15:34:15 CET 2017 | [INFO] Anonymous#2 change d'utilisateur pour EpicKiwi
+Mon Nov 13 15:34:19 CET 2017 | [INFO] EpicKiwi : Je suis le second
+Mon Nov 13 15:34:19 CET 2017 | [INFO] EpicKiwi : Je suis le second
+Mon Nov 13 15:34:19 CET 2017 | [INFO] EpicKiwi : Je suis le second
+Mon Nov 13 15:46:42 CET 2017 | [INFO] Client EpicKiwi déconnecté
+Mon Nov 13 15:46:44 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 15:46:51 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 15:46:51 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 15:46:51 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 15:46:54 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:46:54 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:46:53 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:46:54 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 15:46:54 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 15:46:56 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:46:56 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:46:56 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 15:46:56 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:46:56 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 15:47:02 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 15:47:04 CET 2017 | [DEBUG] fr.epickiwi.powerchat.protocol.action.UserHasChangedAction@6f8fcdde
+Mon Nov 13 15:47:04 CET 2017 | [INFO] Anonymous#1 change d'utilisateur pour Epickiwi
+Mon Nov 13 15:47:04 CET 2017 | [INFO] Nouvel utilisateur Epickiwi
+Mon Nov 13 15:49:36 CET 2017 | [INFO] Client Anonymous#2 déconnecté
+Mon Nov 13 15:49:38 CET 2017 | [INFO] Client Epickiwi déconnecté
+Mon Nov 13 15:49:52 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 15:49:52 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 15:49:52 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 15:49:56 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:49:56 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:49:56 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:49:56 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 15:49:56 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 15:49:58 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 15:49:58 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:49:58 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:49:58 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:49:58 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 15:50:03 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 15:50:06 CET 2017 | [INFO] Anonymous#1 est maitenant connu sous le nom de EpicKiwi
+Mon Nov 13 15:50:06 CET 2017 | [INFO] Anonymous#1 change d'utilisateur pour EpicKiwi
+Mon Nov 13 15:50:06 CET 2017 | [INFO] Nouvel utilisateur EpicKiwi
+Mon Nov 13 15:57:55 CET 2017 | [INFO] Client EpicKiwi déconnecté
+Mon Nov 13 15:57:56 CET 2017 | [INFO] Client Anonymous#2 déconnecté
+Mon Nov 13 15:58:00 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 15:58:00 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 15:58:00 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 15:58:06 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:58:06 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:58:06 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:58:06 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 15:58:06 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 15:58:12 CET 2017 | [INFO] Bienvenue Anonymous#2
+Mon Nov 13 15:58:12 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 15:58:12 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 15:58:12 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 15:58:12 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 15:58:12 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 15:58:24 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 15:58:27 CET 2017 | [INFO] Anonymous#2 est maitenant connu sous le nom de EpicKiwi
+Mon Nov 13 15:58:27 CET 2017 | [INFO] Anonymous#2 change d'utilisateur pour EpicKiwi
+Mon Nov 13 15:58:27 CET 2017 | [INFO] Nouvel utilisateur EpicKiwi
+Mon Nov 13 15:58:44 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 15:58:47 CET 2017 | [INFO] Anonymous#1 change d'utilisateur pour Tanguy
+Mon Nov 13 15:58:47 CET 2017 | [INFO] Nouvel utilisateur Tanguy
+Mon Nov 13 15:58:47 CET 2017 | [INFO] Anonymous#1 est maitenant connu sous le nom de Tanguy
+Mon Nov 13 15:58:55 CET 2017 | [INFO] Tanguy : Hello
+Mon Nov 13 15:58:55 CET 2017 | [INFO] Tanguy : Hello
+Mon Nov 13 15:58:55 CET 2017 | [INFO] Tanguy : Hello
+Mon Nov 13 15:58:59 CET 2017 | [INFO] EpicKiwi : Sakut !
+Mon Nov 13 15:58:59 CET 2017 | [INFO] EpicKiwi : Sakut !
+Mon Nov 13 15:58:59 CET 2017 | [INFO] EpicKiwi : Sakut !
+Mon Nov 13 15:59:05 CET 2017 | [INFO] EpicKiwi : hello
+Mon Nov 13 15:59:05 CET 2017 | [INFO] EpicKiwi : hello
+Mon Nov 13 15:59:05 CET 2017 | [INFO] EpicKiwi : hello
+Mon Nov 13 15:59:08 CET 2017 | [INFO] EpicKiwi : uhgzehrkolekmr
+Mon Nov 13 15:59:08 CET 2017 | [INFO] EpicKiwi : uhgzehrkolekmr
+Mon Nov 13 15:59:08 CET 2017 | [INFO] EpicKiwi : uhgzehrkolekmr
+Mon Nov 13 15:59:08 CET 2017 | [INFO] EpicKiwi : elkjgkùermflme
+Mon Nov 13 15:59:08 CET 2017 | [INFO] EpicKiwi : elkjgkùermflme
+Mon Nov 13 15:59:08 CET 2017 | [INFO] EpicKiwi : elkjgkùermflme
+Mon Nov 13 15:59:09 CET 2017 | [INFO] EpicKiwi : fêlrf$ùermf
+Mon Nov 13 15:59:09 CET 2017 | [INFO] EpicKiwi : fêlrf$ùermf
+Mon Nov 13 15:59:09 CET 2017 | [INFO] EpicKiwi : fêlrf$ùermf
+Mon Nov 13 15:59:11 CET 2017 | [INFO] EpicKiwi : erpkjerlfm
+Mon Nov 13 15:59:11 CET 2017 | [INFO] EpicKiwi : erpkjerlfm
+Mon Nov 13 15:59:11 CET 2017 | [INFO] EpicKiwi : erpkjerlfm
+Mon Nov 13 15:59:17 CET 2017 | [INFO] EpicKiwi : ijojlme"rf\ned\efnef
+Mon Nov 13 15:59:17 CET 2017 | [INFO] EpicKiwi : ijojlme"rf\ned\efnef
+Mon Nov 13 15:59:17 CET 2017 | [INFO] EpicKiwi : ijojlme"rf\ned\efnef
+Mon Nov 13 15:59:28 CET 2017 | [INFO] EpicKiwi : hfgjhjk
+Mon Nov 13 15:59:28 CET 2017 | [INFO] EpicKiwi : hfgjhjk
+Mon Nov 13 15:59:28 CET 2017 | [INFO] EpicKiwi : hfgjhjk
+Mon Nov 13 15:59:43 CET 2017 | [INFO] Client Tanguy déconnecté
+Mon Nov 13 15:59:43 CET 2017 | [INFO] Au revoir Tanguy
+Mon Nov 13 15:59:43 CET 2017 | [ERROR] Socket closed ( java.net.SocketException: Socket closed )
+java.net.SocketInputStream.socketRead0(Native Method)
+java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+java.net.SocketInputStream.read(SocketInputStream.java:171)
+java.net.SocketInputStream.read(SocketInputStream.java:141)
+java.net.SocketInputStream.read(SocketInputStream.java:224)
+java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2598)
+java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:2905)
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2915)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.cliclient.Main.lambda$main$0(Main.java:59)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 15:59:43 CET 2017 | [INFO] Tanguy : exit
+Mon Nov 13 15:59:43 CET 2017 | [INFO] Déconnexion du serveur
+Mon Nov 13 15:59:43 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:70)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.controller.MessageController.run(MessageController.java:18)
+fr.epickiwi.powerchat.server.Client.run(Client.java:49)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 15:59:43 CET 2017 | [INFO] Tanguy : exit
+Mon Nov 13 16:01:41 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:70)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:65)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:01:41 CET 2017 | [INFO] Client EpicKiwi déconnecté
+Mon Nov 13 16:01:50 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 16:01:50 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 16:01:50 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 16:01:55 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:01:55 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:01:55 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:01:55 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 16:01:55 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 16:01:56 CET 2017 | [INFO] Anonymous#1 : dffg,l,;
+Mon Nov 13 16:01:56 CET 2017 | [INFO] Anonymous#1 : dffg,l,;
+Mon Nov 13 16:01:59 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 16:01:59 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:01:59 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:01:59 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:01:59 CET 2017 | [INFO] Bienvenue Anonymous#2
+Mon Nov 13 16:01:59 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 16:02:01 CET 2017 | [INFO] Anonymous#2 : erdftgyhjk
+Mon Nov 13 16:02:01 CET 2017 | [INFO] Anonymous#2 : erdftgyhjk
+Mon Nov 13 16:02:01 CET 2017 | [INFO] Anonymous#2 : erdftgyhjk
+Mon Nov 13 16:02:05 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 16:02:05 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:71)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.controller.MessageController.run(MessageController.java:18)
+fr.epickiwi.powerchat.server.Client.run(Client.java:50)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:02:05 CET 2017 | [INFO] Anonymous#1 : exit
+Mon Nov 13 16:02:05 CET 2017 | [INFO] Au revoir Anonymous#1
+Mon Nov 13 16:02:05 CET 2017 | [INFO] Anonymous#1 : exit
+Mon Nov 13 16:02:05 CET 2017 | [ERROR] Socket closed ( java.net.SocketException: Socket closed )
+java.net.SocketInputStream.socketRead0(Native Method)
+java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+java.net.SocketInputStream.read(SocketInputStream.java:171)
+java.net.SocketInputStream.read(SocketInputStream.java:141)
+java.net.SocketInputStream.read(SocketInputStream.java:224)
+java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2598)
+java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:2905)
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2915)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.cliclient.Main.lambda$main$0(Main.java:59)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:02:05 CET 2017 | [INFO] Déconnexion du serveur
+Mon Nov 13 16:04:42 CET 2017 | [ERROR] null ( java.io.EOFException )
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.cliclient.Main.lambda$main$0(Main.java:59)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:04:44 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 16:04:44 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 16:04:44 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 16:04:49 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:04:49 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:04:49 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:04:49 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 16:04:49 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 16:04:52 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 16:04:52 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:04:52 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:04:52 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:04:52 CET 2017 | [INFO] Bienvenue Anonymous#2
+Mon Nov 13 16:04:52 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 16:04:56 CET 2017 | [ERROR] Socket closed ( java.net.SocketException: Socket closed )
+java.net.SocketInputStream.socketRead0(Native Method)
+java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+java.net.SocketInputStream.read(SocketInputStream.java:171)
+java.net.SocketInputStream.read(SocketInputStream.java:141)
+java.net.SocketInputStream.read(SocketInputStream.java:224)
+java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2598)
+java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:2905)
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2915)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.cliclient.Main.lambda$main$0(Main.java:59)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:04:56 CET 2017 | [INFO] Déconnexion du serveur
+Mon Nov 13 16:04:56 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 16:04:56 CET 2017 | [INFO] Au revoir Anonymous#1
+Mon Nov 13 16:08:57 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:69)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:08:57 CET 2017 | [INFO] Client Anonymous#2 déconnecté
+Mon Nov 13 16:08:57 CET 2017 | [ERROR] Socket closed ( java.net.SocketException: Socket closed )
+java.net.SocketInputStream.socketRead0(Native Method)
+java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+java.net.SocketInputStream.read(SocketInputStream.java:171)
+java.net.SocketInputStream.read(SocketInputStream.java:141)
+java.net.SocketInputStream.read(SocketInputStream.java:224)
+java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2598)
+java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:2905)
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2915)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.cliclient.Main.lambda$main$0(Main.java:59)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:08:57 CET 2017 | [INFO] Déconnexion du serveur
+Mon Nov 13 16:09:25 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 16:09:25 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 16:09:25 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 16:09:35 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:09:35 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:09:35 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:09:36 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 16:09:36 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 16:09:41 CET 2017 | [INFO] Déconnecté
+Mon Nov 13 16:09:41 CET 2017 | [INFO] Déconnexion du serveur
+Mon Nov 13 16:09:41 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 16:10:22 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:10:22 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:43)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:10:22 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:10:22 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 16:10:22 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:10:22 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 16:10:48 CET 2017 | [INFO] Déconnecté
+Mon Nov 13 16:10:48 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 16:10:48 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 16:10:48 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 16:11:46 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:11:46 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:11:46 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:11:46 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 16:11:46 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 16:11:48 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 16:11:48 CET 2017 | [INFO] Déconnecté
+Mon Nov 13 16:11:48 CET 2017 | [INFO] Déconnexion du serveur
+Mon Nov 13 16:12:32 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 16:12:32 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 16:12:32 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 16:12:38 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:12:38 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:12:38 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:12:38 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 16:12:39 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 16:12:45 CET 2017 | [INFO] Anonymous#1 : hello
+Mon Nov 13 16:12:45 CET 2017 | [INFO] Anonymous#1 : hello
+Mon Nov 13 16:13:14 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 16:13:19 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:13:19 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:13:19 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:13:19 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:43)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:13:19 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 16:13:19 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 16:13:40 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:69)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:13:40 CET 2017 | [INFO] Client Anonymous#2 déconnecté
+Mon Nov 13 16:14:43 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:43)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:14:43 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:43)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:14:43 CET 2017 | [INFO] Connexion du client Anonymous#3
+Mon Nov 13 16:14:43 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:14:43 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:14:43 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:14:43 CET 2017 | [INFO] Utilisateur Anonymous#3
+Mon Nov 13 16:15:12 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:69)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:15:12 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:69)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:15:12 CET 2017 | [INFO] Client Anonymous#3 déconnecté
+Mon Nov 13 16:24:59 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:24:59 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:24:59 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:24:59 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:43)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:24:59 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:43)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:24:59 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:43)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:24:59 CET 2017 | [INFO] Connexion du client Anonymous#4
+Mon Nov 13 16:24:59 CET 2017 | [INFO] Utilisateur Anonymous#4
+Mon Nov 13 16:25:03 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:69)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:25:03 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:69)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:25:03 CET 2017 | [ERROR] Relais brisé (pipe) (Write failed) ( java.net.SocketException: Relais brisé (pipe) (Write failed) )
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+fr.epickiwi.powerchat.server.Client.sendAction(Client.java:75)
+fr.epickiwi.powerchat.server.Server.sendBroadcast(Server.java:71)
+fr.epickiwi.powerchat.server.Client.run(Client.java:69)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+Mon Nov 13 16:25:03 CET 2017 | [INFO] Client Anonymous#4 déconnecté
+Mon Nov 13 16:26:36 CET 2017 | [INFO] Écoute sur *:7600
+Mon Nov 13 16:26:36 CET 2017 | [INFO] Démarrage du serveur
+Mon Nov 13 16:26:36 CET 2017 | [INFO] Création du serveur
+Mon Nov 13 16:26:39 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:26:39 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:26:39 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:26:39 CET 2017 | [INFO] Connexion du client Anonymous#1
+Mon Nov 13 16:26:39 CET 2017 | [INFO] Utilisateur Anonymous#1
+Mon Nov 13 16:26:43 CET 2017 | [INFO] Anonymous#1 : hello
+Mon Nov 13 16:26:43 CET 2017 | [INFO] Anonymous#1 : hello
+Mon Nov 13 16:26:48 CET 2017 | [INFO] Client Anonymous#1 déconnecté
+Mon Nov 13 16:26:55 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:26:55 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:26:55 CET 2017 | [INFO] Connexion du client Anonymous#2
+Mon Nov 13 16:26:55 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:26:55 CET 2017 | [INFO] Utilisateur Anonymous#2
+Mon Nov 13 16:26:57 CET 2017 | [INFO] Bienvenue Anonymous#3
+Mon Nov 13 16:26:57 CET 2017 | [INFO] Connexion du client Anonymous#3
+Mon Nov 13 16:26:57 CET 2017 | [INFO] Connexion entrante
+Mon Nov 13 16:26:57 CET 2017 | [INFO] Connecté au serveur
+Mon Nov 13 16:26:57 CET 2017 | [INFO] Démarrage du client
+Mon Nov 13 16:26:57 CET 2017 | [INFO] Utilisateur Anonymous#3
+Mon Nov 13 16:27:24 CET 2017 | [INFO] Anonymous#3 : hello
+Mon Nov 13 16:27:24 CET 2017 | [INFO] Anonymous#3 : hello
+Mon Nov 13 16:27:24 CET 2017 | [INFO] Anonymous#3 : hello
+Mon Nov 13 16:27:29 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 16:27:32 CET 2017 | [INFO] Anonymous#3 est maitenant connu sous le nom de EpicKiwi
+Mon Nov 13 16:27:32 CET 2017 | [INFO] Anonymous#3 change d'utilisateur pour EpicKiwi
+Mon Nov 13 16:27:32 CET 2017 | [INFO] Nouvel utilisateur EpicKiwi
+Mon Nov 13 16:27:52 CET 2017 | [INFO] Quel nom d'utilisateur desirez vous ?
+Mon Nov 13 16:27:54 CET 2017 | [INFO] Anonymous#2 change d'utilisateur pour Baptiste
+Mon Nov 13 16:27:54 CET 2017 | [INFO] Nouvel utilisateur Baptiste
+Mon Nov 13 16:27:54 CET 2017 | [INFO] Anonymous#2 est maitenant connu sous le nom de Baptiste
+Mon Nov 13 16:28:01 CET 2017 | [INFO] Baptiste : Mon dieu mais tu es là !!!!
+Mon Nov 13 16:28:01 CET 2017 | [INFO] Baptiste : Mon dieu mais tu es là !!!!
+Mon Nov 13 16:28:01 CET 2017 | [INFO] Baptiste : Mon dieu mais tu es là !!!!
+Mon Nov 13 16:28:04 CET 2017 | [INFO] EpicKiwi : oui
+Mon Nov 13 16:28:04 CET 2017 | [INFO] EpicKiwi : oui
+Mon Nov 13 16:28:04 CET 2017 | [INFO] EpicKiwi : oui
+Mon Nov 13 16:28:10 CET 2017 | [INFO] Client EpicKiwi déconnecté
+Mon Nov 13 16:28:10 CET 2017 | [INFO] Au revoir EpicKiwi
+Mon Nov 13 16:28:15 CET 2017 | [INFO] Baptiste : Ah bah il est partit
+Mon Nov 13 16:28:15 CET 2017 | [INFO] Baptiste : Ah bah il est partit
+Mon Nov 13 16:28:17 CET 2017 | [INFO] Client Baptiste déconnecté
