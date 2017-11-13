@@ -1,0 +1,321 @@
+Fri Nov 10 13:59:20 CET 2017 | [INFO] Écoute sur *:7600Fri Nov 10 13:59:20 CET 2017 | [INFO] Démarrage du serveurFri Nov 10 13:59:51 CET 2017 | [FATAL] Adresse déjà utilisée (Bind failed)
+java.net.PlainSocketImpl.socketBind(Native Method)
+java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+java.net.ServerSocket.bind(ServerSocket.java:375)
+java.net.ServerSocket.<init>(ServerSocket.java:237)
+java.net.ServerSocket.<init>(ServerSocket.java:128)
+fr.epickiwi.powerchat.server.Main.main(Main.java:18)
+
+Fri Nov 10 13:59:51 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 13:59:51 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 14:00:18 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 14:00:18 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 14:00:32 CET 2017 | [INFO] Client client#1 connecté
+Fri Nov 10 14:00:31 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 14:00:31 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 14:00:32 CET 2017 | [INFO] Client client#1 connecté
+Fri Nov 10 14:00:34 CET 2017 | [INFO] client#1 : Salut
+Fri Nov 10 14:00:34 CET 2017 | [INFO] client#1 : Salut
+Fri Nov 10 14:00:37 CET 2017 | [INFO] client#1 : Je suis seul ?
+Fri Nov 10 14:00:37 CET 2017 | [INFO] client#1 : Je suis seul ?
+Fri Nov 10 14:01:17 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:01:17 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 14:01:17 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 14:01:17 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:01:17 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:01:21 CET 2017 | [INFO] client#2 : Hello
+Fri Nov 10 14:01:21 CET 2017 | [INFO] client#2 : Hello
+Fri Nov 10 14:01:21 CET 2017 | [INFO] client#2 : Hello
+Fri Nov 10 14:01:27 CET 2017 | [INFO] client#2 : Bonjour mon chou !
+Fri Nov 10 14:01:27 CET 2017 | [INFO] client#2 : Bonjour mon chou !
+Fri Nov 10 14:01:27 CET 2017 | [INFO] client#2 : Bonjour mon chou !
+Fri Nov 10 14:01:53 CET 2017 | [INFO] Client client#2 déconnecté
+Fri Nov 10 14:01:53 CET 2017 | [INFO] Client client#2 déconnecté
+Fri Nov 10 14:01:54 CET 2017 | [INFO] Client client#1 déconnecté
+Fri Nov 10 14:16:07 CET 2017 | [FATAL] Connexion refusée (Connection refused)
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+java.net.Socket.connect(Socket.java:589)
+java.net.Socket.connect(Socket.java:538)
+java.net.Socket.<init>(Socket.java:434)
+java.net.Socket.<init>(Socket.java:211)
+fr.epickiwi.powerchat.client.Main.main(Main.java:20)
+
+Fri Nov 10 14:16:07 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 14:16:14 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 14:16:14 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 14:18:22 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 14:18:22 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 14:22:27 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 14:22:27 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 14:22:32 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 14:22:32 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 14:24:30 CET 2017 | [FATAL] Connexion refusée (Connection refused)
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+java.net.Socket.connect(Socket.java:589)
+java.net.Socket.connect(Socket.java:538)
+java.net.Socket.<init>(Socket.java:434)
+java.net.Socket.<init>(Socket.java:211)
+fr.epickiwi.powerchat.client.Main.main(Main.java:20)
+
+Fri Nov 10 14:24:29 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 14:24:34 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 14:24:34 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 14:24:40 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 14:24:40 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 14:24:46 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 14:24:46 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 14:24:46 CET 2017 | [INFO] Client client#1 connecté
+Fri Nov 10 14:24:46 CET 2017 | [INFO] Client client#1 connecté
+Fri Nov 10 14:24:49 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:24:49 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 14:24:49 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 14:24:49 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:24:49 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:26:43 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 14:26:43 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 14:26:46 CET 2017 | [INFO] Client client#1 connecté
+Fri Nov 10 14:26:46 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 14:26:46 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 14:26:46 CET 2017 | [INFO] Client client#1 connecté
+Fri Nov 10 14:26:48 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:26:48 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 14:26:48 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 14:26:48 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:26:48 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:27:39 CET 2017 | [FATAL] Connexion refusée (Connection refused)
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+java.net.Socket.connect(Socket.java:589)
+java.net.Socket.connect(Socket.java:538)
+java.net.Socket.<init>(Socket.java:434)
+java.net.Socket.<init>(Socket.java:211)
+fr.epickiwi.powerchat.client.Main.main(Main.java:20)
+
+Fri Nov 10 14:27:39 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 14:27:44 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 14:27:44 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 14:27:46 CET 2017 | [INFO] Client client#1 connecté
+Fri Nov 10 14:27:46 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 14:27:46 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 14:27:47 CET 2017 | [INFO] Client client#1 connecté
+Fri Nov 10 14:27:48 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:27:48 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:27:48 CET 2017 | [INFO] Client client#2 connecté
+Fri Nov 10 14:27:48 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 14:27:48 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 15:14:22 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 15:14:22 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 15:14:27 CET 2017 | [INFO] Client Anonymous#1 connecté
+Fri Nov 10 15:14:27 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 15:14:27 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 15:14:27 CET 2017 | [ERROR] fr.epickiwi.powerchat.com.message.UserJoinMessage
+java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+fr.epickiwi.powerchat.server.chat.Client.sendMessage(Client.java:57)
+fr.epickiwi.powerchat.server.chat.ClientPool.sendBroadcast(ClientPool.java:29)
+fr.epickiwi.powerchat.server.chat.Client.run(Client.java:33)
+java.lang.Thread.run(Thread.java:748)
+
+Fri Nov 10 15:15:12 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 15:15:12 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 15:15:15 CET 2017 | [INFO] Client Anonymous#1 connecté
+Fri Nov 10 15:15:15 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 15:15:15 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 15:15:15 CET 2017 | [INFO] UserChangeMessage{user=AnonymousUser{name='Anonymous#1', id=1}}
+Fri Nov 10 15:15:15 CET 2017 | [INFO] UserJoinMessage{joinedUser=AnonymousUser{name='Anonymous#1', id=1}}
+Fri Nov 10 15:15:28 CET 2017 | [INFO] Client Anonymous#2 connecté
+Fri Nov 10 15:15:28 CET 2017 | [INFO] UserJoinMessage{joinedUser=AnonymousUser{name='Anonymous#2', id=2}}
+Fri Nov 10 15:15:28 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 15:15:28 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 15:15:28 CET 2017 | [INFO] UserChangeMessage{user=AnonymousUser{name='Anonymous#2', id=2}}
+Fri Nov 10 15:15:28 CET 2017 | [INFO] UserJoinMessage{joinedUser=AnonymousUser{name='Anonymous#2', id=2}}
+Fri Nov 10 15:20:55 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.server.chat.Client.run(Client.java:36)
+java.lang.Thread.run(Thread.java:748)
+
+Fri Nov 10 15:20:57 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.server.chat.Client.run(Client.java:36)
+java.lang.Thread.run(Thread.java:748)
+
+Fri Nov 10 15:21:59 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 15:21:59 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 15:22:03 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 15:22:03 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 15:22:03 CET 2017 | [INFO] Client Anonymous#1 connecté
+Fri Nov 10 15:22:03 CET 2017 | [INFO] UserChangeMessage{user=AnonymousUser{name='Anonymous#1', id=1}}
+Fri Nov 10 15:22:03 CET 2017 | [INFO] UserJoinMessage{joinedUser=AnonymousUser{name='Anonymous#1', id=1}}
+Fri Nov 10 15:22:11 CET 2017 | [INFO] Anonymous#1 : fr.epickiwi.powerchat.com.message.TextMessage@5954bf42
+Fri Nov 10 15:23:22 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.server.chat.Client.run(Client.java:40)
+java.lang.Thread.run(Thread.java:748)
+
+Fri Nov 10 15:23:28 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 15:23:28 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 15:23:31 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 15:23:31 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 15:23:31 CET 2017 | [INFO] Client Anonymous#1 connecté
+Fri Nov 10 15:23:31 CET 2017 | [INFO] UserChangeMessage{user=AnonymousUser{name='Anonymous#1', id=1}, author=ServerUser{name='Serveur', id=0}, date=null}
+Fri Nov 10 15:23:31 CET 2017 | [INFO] UserJoinMessage{joinedUser=AnonymousUser{name='Anonymous#1', id=1}, author=ServerUser{name='Serveur', id=0}, date=null}
+Fri Nov 10 15:23:47 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.server.chat.Client.run(Client.java:36)
+java.lang.Thread.run(Thread.java:748)
+
+Fri Nov 10 15:23:50 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 15:23:50 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 15:23:51 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 15:23:51 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 15:23:53 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 15:23:53 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 15:23:53 CET 2017 | [INFO] Client Anonymous#1 connecté
+Fri Nov 10 15:23:54 CET 2017 | [INFO] UserChangeMessage{user=AnonymousUser{name='Anonymous#1', id=1}, author=ServerUser{name='Serveur', id=0}, date=Fri Nov 10 15:23:54 CET 2017}
+Fri Nov 10 15:23:54 CET 2017 | [INFO] UserJoinMessage{joinedUser=AnonymousUser{name='Anonymous#1', id=1}, author=ServerUser{name='Serveur', id=0}, date=Fri Nov 10 15:23:53 CET 2017}
+Fri Nov 10 15:24:04 CET 2017 | [INFO] Anonymous#1 : TextMessage{message='Hello', author=AnonymousUser{name='Anonymous#1', id=1}, date=Fri Nov 10 15:24:04 CET 2017}
+Fri Nov 10 15:24:19 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.server.chat.Client.run(Client.java:40)
+java.lang.Thread.run(Thread.java:748)
+
+Fri Nov 10 15:24:23 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 15:24:23 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 15:39:02 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 15:39:02 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 15:39:05 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 15:39:05 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 15:39:05 CET 2017 | [INFO] Client Anonymous#1 connecté
+Fri Nov 10 15:39:05 CET 2017 | [INFO] UserChangeMessage{user=AnonymousUser{name='Anonymous#1', id=1}, author=ServerUser{name='Serveur', id=0}, date=Fri Nov 10 15:39:05 CET 2017}
+Fri Nov 10 15:39:05 CET 2017 | [INFO] UserJoinMessage{joinedUser=AnonymousUser{name='Anonymous#1', id=1}, author=ServerUser{name='Serveur', id=0}, date=Fri Nov 10 15:39:05 CET 2017}
+Fri Nov 10 15:39:23 CET 2017 | [INFO] Anonymous#1 : TextMessage{message='Hello', author=AnonymousUser{name='Anonymous#1', id=1}, date=Fri Nov 10 15:39:23 CET 2017}
+Fri Nov 10 15:39:26 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.server.chat.Client.run(Client.java:40)
+java.lang.Thread.run(Thread.java:748)
+
+Fri Nov 10 15:46:39 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 15:46:39 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 15:46:45 CET 2017 | [INFO] Client Anonymous#1 connecté
+Fri Nov 10 15:46:45 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 15:46:45 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 15:46:45 CET 2017 | [INFO] UserChangeMessage{user=AnonymousUser{name='Anonymous#1', id=1}, author=ServerUser{name='Serveur', id=0}, date=Fri Nov 10 15:46:45 CET 2017, uuid=00000000-0000-0000-0000-000000000000}
+Fri Nov 10 15:46:45 CET 2017 | [INFO] UserJoinMessage{joinedUser=AnonymousUser{name='Anonymous#1', id=1}, author=ServerUser{name='Serveur', id=0}, date=Fri Nov 10 15:46:45 CET 2017, uuid=00000000-0000-0000-0000-000000000000}
+Fri Nov 10 15:46:53 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.server.chat.Client.run(Client.java:36)
+java.lang.Thread.run(Thread.java:748)
+
+Fri Nov 10 15:49:23 CET 2017 | [INFO] Écoute sur *:7600
+Fri Nov 10 15:49:23 CET 2017 | [INFO] Démarrage du serveur
+Fri Nov 10 15:49:28 CET 2017 | [INFO] Client Anonymous#1 connecté
+Fri Nov 10 15:49:28 CET 2017 | [INFO] Connecté au serveur
+Fri Nov 10 15:49:28 CET 2017 | [INFO] Démarrage du client
+Fri Nov 10 15:49:28 CET 2017 | [INFO] UserChangeMessage{user=AnonymousUser{name='Anonymous#1', id=1}, author=ServerUser{name='Serveur', id=0}, date=Fri Nov 10 15:49:28 CET 2017, uuid=4a15ba77-738b-4fd9-b9a9-f3dbc84e72b3}
+Fri Nov 10 15:49:28 CET 2017 | [INFO] UserJoinMessage{joinedUser=AnonymousUser{name='Anonymous#1', id=1}, author=ServerUser{name='Serveur', id=0}, date=Fri Nov 10 15:49:28 CET 2017, uuid=e0808bc0-5a35-4d8f-918f-1a5e9200ae41}
+Fri Nov 10 15:49:48 CET 2017 | [INFO] Anonymous#1 : TextMessage{message='SAlut', author=AnonymousUser{name='Anonymous#1', id=1}, date=Fri Nov 10 15:49:48 CET 2017, uuid=dd4c6fe1-40f0-43d7-b5a2-ddd8e1612cfe}
+Fri Nov 10 15:49:48 CET 2017 | [INFO] TextMessage{message='SAlut', author=AnonymousUser{name='Anonymous#1', id=1}, date=Fri Nov 10 15:49:48 CET 2017, uuid=3b48cba7-b111-4538-881d-9f9aa79f3109}
+Fri Nov 10 15:50:09 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2917)
+java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+fr.epickiwi.powerchat.server.chat.Client.run(Client.java:41)
+java.lang.Thread.run(Thread.java:748)
+
+Sun Nov 12 17:40:50 CET 2017 | [INFO] Écoute sur *:7600
+Sun Nov 12 17:40:50 CET 2017 | [INFO] Démarrage du serveur
+Sun Nov 12 20:07:43 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2638)
+java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3113)
+java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:853)
+java.io.ObjectInputStream.<init>(ObjectInputStream.java:349)
+fr.epickiwi.powerchat.server.chat.Client.<init>(Client.java:24)
+fr.epickiwi.powerchat.server.chat.ClientPool.connectClient(ClientPool.java:21)
+fr.epickiwi.powerchat.server.chat.Server.run(Server.java:36)
+
+Sun Nov 12 20:07:43 CET 2017 | [INFO] Fermeture du serveur
+Sun Nov 12 20:10:38 CET 2017 | [INFO] Écoute sur *:7600
+Sun Nov 12 20:10:38 CET 2017 | [INFO] Démarrage du serveur
+Sun Nov 12 20:10:59 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2638)
+java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3113)
+java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:853)
+java.io.ObjectInputStream.<init>(ObjectInputStream.java:349)
+fr.epickiwi.powerchat.server.chat.Client.<init>(Client.java:25)
+fr.epickiwi.powerchat.server.chat.ClientPool.connectClient(ClientPool.java:21)
+fr.epickiwi.powerchat.server.chat.Server.run(Server.java:36)
+
+Sun Nov 12 20:10:59 CET 2017 | [INFO] Fermeture du serveur
+Sun Nov 12 20:20:47 CET 2017 | [INFO] Écoute sur *:7600
+Sun Nov 12 20:20:47 CET 2017 | [INFO] Démarrage du serveur
+Sun Nov 12 20:21:04 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2638)
+java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3113)
+java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:853)
+java.io.ObjectInputStream.<init>(ObjectInputStream.java:349)
+fr.epickiwi.powerchat.server.chat.Client.<init>(Client.java:25)
+fr.epickiwi.powerchat.server.chat.ClientPool.connectClient(ClientPool.java:21)
+fr.epickiwi.powerchat.server.chat.Server.run(Server.java:36)
+
+Sun Nov 12 20:21:04 CET 2017 | [INFO] Fermeture du serveur
+Sun Nov 12 20:21:36 CET 2017 | [INFO] Écoute sur *:7600
+Sun Nov 12 20:21:36 CET 2017 | [INFO] Démarrage du serveur
+Sun Nov 12 20:22:29 CET 2017 | [ERROR] null
+java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2638)
+java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3113)
+java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:853)
+java.io.ObjectInputStream.<init>(ObjectInputStream.java:349)
+fr.epickiwi.powerchat.server.chat.Client.<init>(Client.java:25)
+fr.epickiwi.powerchat.server.chat.ClientPool.connectClient(ClientPool.java:21)
+fr.epickiwi.powerchat.server.chat.Server.run(Server.java:36)
+
+Sun Nov 12 20:22:29 CET 2017 | [INFO] Fermeture du serveur
+Sun Nov 12 20:24:57 CET 2017 | [INFO] Écoute sur *:7600
+Sun Nov 12 20:24:57 CET 2017 | [INFO] Démarrage du serveur
+Sun Nov 12 20:25:18 CET 2017 | [ERROR] null( java.io.EOFException )
+java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2638)
+java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3113)
+java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:853)
+java.io.ObjectInputStream.<init>(ObjectInputStream.java:349)
+fr.epickiwi.powerchat.server.chat.Client.<init>(Client.java:25)
+fr.epickiwi.powerchat.server.chat.ClientPool.connectClient(ClientPool.java:21)
+fr.epickiwi.powerchat.server.chat.Server.run(Server.java:36)
+
+Sun Nov 12 20:25:18 CET 2017 | [INFO] Fermeture du serveur
+Sun Nov 12 20:27:38 CET 2017 | [INFO] Écoute sur *:7600
+Sun Nov 12 20:27:38 CET 2017 | [INFO] Démarrage du serveur
+Sun Nov 12 20:27:52 CET 2017 | [ERROR] null ( java.io.EOFException )
+java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2638)
+java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3113)
+java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:853)
+java.io.ObjectInputStream.<init>(ObjectInputStream.java:349)
+fr.epickiwi.powerchat.server.chat.Client.<init>(Client.java:25)
+fr.epickiwi.powerchat.server.chat.ClientPool.connectClient(ClientPool.java:21)
+fr.epickiwi.powerchat.server.chat.Server.run(Server.java:36)
+
+Sun Nov 12 20:27:52 CET 2017 | [INFO] Fermeture du serveur
